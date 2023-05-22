@@ -16,7 +16,7 @@
 ├── sql
 │   ├── init_database.sql
 │   └── practice_crud.sql
-├── src
+├── study.src
 │   ├── homework  # as is assigned by some teacher(s)
 │   ├── jdbc.properties  # replaced with jdbc-template.properties due to confidentiality
 │   └── top

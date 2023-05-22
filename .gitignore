@@ -1,1 +1,3 @@
-src/jdbc.properties
+out
+/maven/src/main/resources/jdbc.properties
+/maven/target/
