@@ -9,18 +9,31 @@
 ```shell
 .
 ├── README.md
-├── lib
-│   └── mysql-connector-j-8.0.32.jar
-├── out
-│   └── production
+├── libs
+│   ├── *.jar
+├── maven
+│   ├── maven.iml
+│   ├── pom.xml
+│   └── src
+│       ├── main
+│       │   ├── java
+│       │   ├── resources
+│       │   │   ├── libs
+│       │   │   └── jdbc.properties  # replaced with jdbc-template.properties due to confidentiality
+│       │   └── webapps
+│       │       ├── dist
+│       │       ├── docs
+│       │       ├── img
+│       │       ├── META-INF
+│       │       ├── WEB-INF
+│       │       ├── *.jsp
+│       │       ├── pom.xml
+│       │       └── pro.iml
+│       └── test
+│           ├── java
+│           └── resources
 ├── sql
 │   ├── init_database.sql
 │   └── practice_crud.sql
-├── study.src
-│   ├── homework  # as is assigned by some teacher(s)
-│   ├── jdbc.properties  # replaced with jdbc-template.properties due to confidentiality
-│   └── top
-├── web
-│   └── ROOT
 └── top.joww.game.server.iml
 ```
